@@ -15,6 +15,7 @@ let package = Package(
     ],
     products: [
         .library(name: "JSONModel",
+                 type: .dynamic,
                  targets: ["JSONModel", "JSONModelNetworking" , "JSONModelTransformations"])
     ],
     targets: [
